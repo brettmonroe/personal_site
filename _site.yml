@@ -4,8 +4,32 @@ navbar:
   title: "brettmonroe.com"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "Projects"
+      icon: fa-wrench
+      href: projects.html
+  right:
     - text: "Resume"
-      href: resume.html      
+      icon: fa-word-o
+      href: resume.html
+    - text: "About Me"
+      icon: fa-user-o
+      href: about.html
+    - text: "Contact"
+      menu:
+        - text: "Email"
+          icon: fa-envelope
+          href: mailto:brett@brettmonroe.com
+        - text: "LinkedIn"
+          icon: fa-linkedin
+          href: https://www.linkedin.com/in/monroebrett/
+        - text: "Github"
+          icon: fa-github
+          href: https://github.com/brettmonroe
+        - text: "Twitter"
+          icon: fa-twitter
+          href: https://twitter.com/brettmonroe
+output:
+  html_document:
+    theme: united
