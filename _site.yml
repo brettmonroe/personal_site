@@ -1,0 +1,11 @@
+name: "bm-website"
+output_dir: "."
+navbar:
+  title: "brettmonroe.com"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+    - text: "Resume"
+      href: resume.html      
