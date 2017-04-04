@@ -1,7 +1,7 @@
 ---
-title: "brettmonroe.com"
+title: "Welcome"
 ---
-
+***
 Welcome to my site.
 
-Created with RMarkdown using [this tutorial](http://nickstrayer.me/RMarkdown_Sites_tutorial/).
+###### Created with RMarkdown using [this tutorial](http://nickstrayer.me/RMarkdown_Sites_tutorial/).

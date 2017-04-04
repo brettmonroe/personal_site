@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 ---
-
+***
 Visual resume to be included here.
 
 [Please click here](/files/resume.docx) to download in Word format.

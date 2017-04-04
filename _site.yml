@@ -11,12 +11,13 @@ navbar:
       href: projects.html
   right:
     - text: "Resume"
-      icon: fa-word-o
+      icon: fa-file-o
       href: resume.html
     - text: "About Me"
       icon: fa-user-o
       href: about.html
     - text: "Contact"
+      icon: fa-phone
       menu:
         - text: "Email"
           icon: fa-envelope
@@ -32,4 +33,8 @@ navbar:
           href: https://twitter.com/brettmonroe
 output:
   html_document:
-    theme: united
+    includes:
+      in_header: header.html
+    theme: flatly
+    css: fa/css/font-awesome.css
+    self_contained: yes
